@@ -1,0 +1,328 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-09-28 20:06:49
+  from "E:\wamp64\www\shop\Templete\Home\Login\index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59cce5d925bcf4_16907354',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '4e2963b0915a0803424a8433354f352326956b77' => 
+    array (
+      0 => 'E:\\wamp64\\www\\shop\\Templete\\Home\\Login\\index.html',
+      1 => 1506600401,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59cce5d925bcf4_16907354 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <title>京东-欢迎登录</title>
+    <link rel="icon" href="//www.jd.com/favicon.ico"/>
+    <link type="text/css" rel="stylesheet"
+          href="./Public/css/a7874fda3e414d66a2d8a867ee135926.css"
+          source="widget"/>
+    <link type="text/css" rel="stylesheet" href="./Public/css/tinyscrollbar-170524.css">
+    <?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/jquery-1.6.4.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/296518e32cab4b399b2ecee154457401.js"><?php echo '</script'; ?>
+>
+
+    <?php echo '<script'; ?>
+ type="text/javascript">
+        $(function(){
+            window.SysConfig = {
+                encryptInfo:  true ,
+                rememberMeShowEnable:  false                 };
+        });
+    <?php echo '</script'; ?>
+>
+</head>
+<body>
+<!-- SDK 登录 -->
+<div class="w">
+    <div id="logo">
+        <a href="//www.jd.com/" clstag="pageclick|keycount|20150112ABD|45">
+            <img src="./Public/picture/logo-201305-b.png" alt="京东" width="170" height="60">
+        </a>
+        <b></b>
+    </div>
+    <a href="//surveys.jd.com/index.php?r=survey/index/sid/568245/lang/zh-Hans" target="_blank"  class="q-link"><b></b>登录页面，调查问卷</a>
+</div>
+<div id="content">
+    <div class="login-wrap">
+        <div class="w">
+            <div class="login-form">
+                <div class="login-tab login-tab-l">
+                    <a href="javascript:void(0)" clstag="pageclick|keycount|201607144|1"> 扫码登录</a>
+                </div>
+                <div class="login-tab login-tab-r">
+                    <a href="javascript:void(0)" clstag="pageclick|keycount|201607144|2">账户登录</a>
+                </div>
+                <div class="login-box">
+                    <div class="mt tab-h">
+                    </div>
+                    <div class="msg-wrap">
+                        <div class="msg-error hide"><b></b></div>
+                    </div>
+                    <div class="mc">
+                        <div class="form">
+                            <form action="" id="formlogin" method="post">
+                                <input type="hidden" id="sa_token" name="sa_token" value="B94B8E67DE9CE493AD097D750BFEF7F686E3619A99BCE538EAC39259479E7E2AFD4751E6A88970BCCE4C4341DAF8AF1A7DB4D85BDE5B9D484674BBE42215BC95B9E947360EFCF07A8496EB161E709FD3BC5C3DCE5F3D17251E8CC76811464E8CC294F09BB4CB9901EB8057A107BA01509FD5A3E8BB893F3B37DDE76C3C4A37E165C6A58C85D300D803D425E8B961F2016879990F994902CEDA697F175E432BBAEC71F0B7B22223EC828C9C443DBD83A88FAF0F4F566882A2BAA0A4D077ED5D1EF3CFBF4654D103375683BE31C03E759F8AFE2863EFFB7ED8DD6CF8CA5DE5672179751F8B71B4CCF60DC11EC1AE21571035552E546AA6D423A313ED787BAC4BD86CA8656CC407F27D281601519D566E7A0F631E59EC13D79FD61378027D63A549B52821F8F771FF373686EAACE613BF92E9DD08E992DEAA126A103480A716D8943E839742F70D04DD54F02CB18CE5D12E0C7CC9EDFBF4C594DB7DF1390BCE6E6A26E2109466974A452FD4ED3BDBBEC45D"/>
+                                <input type="hidden" id="uuid" name="uuid" value="4beaba89-3867-4653-afcc-13cb85635131"/>
+                                <input type="hidden" name="eid" id="eid" value="" class="hide"/>
+                                <input type="hidden" name="fp" id="sessionId" value="" class="hide"/>
+                                <input type="hidden" name="_t" id="token" value="_t" class="hide"/>
+                                <input type="hidden" name="loginType" id="loginType" value="c" class="hide"/>
+                                <input type="hidden" name="pubKey" id="pubKey" value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC7kw8r6tq43pwApYvkJ5laljaN9BZb21TAIfT/vexbobzH7Q8SUdP5uDPXEBKzOjx2L28y7Xs1d9v3tdPfKI2LR7PAzWBmDMn8riHrDDNpUpJnlAGUqJG9ooPn8j7YNpcxCa1iybOlc2kEhmJn5uwoanQq+CA6agNkqly2H4j6wIDAQAB" class="hide"/>
+                                <input type="hidden" name="gWIVseVAie" value="fLrJi"/>
+                                <div class="item item-fore1">
+                                    <label for="loginname" class="login-label name-label"></label>
+                                    <input id="loginname" type="text" class="itxt" name="loginname" tabindex="1"
+                                           autocomplete="off"
+                                           placeholder="邮箱/用户名/已验证手机"/>
+                                    <span class="clear-btn"></span>
+                                </div>
+
+                                <div id="entry" class="item item-fore2">
+                                    <label class="login-label pwd-label" for="nloginpwd"></label>
+                                    <input type="password" id="nloginpwd" name="nloginpwd" class="itxt itxt-error"
+                                           tabindex="2" autocomplete="off" placeholder="密码"/>
+                                    <span class="clear-btn"></span>
+                                    <span class="capslock"><b></b>大小写锁定已打开</span>
+                                </div>
+
+
+
+                                <div id="o-authcode"
+                                     class="item item-vcode item-fore3  hide ">
+                                    <input id="authcode" type="text" class="itxt itxt02" name="authcode" tabindex="3">
+                                    <img id="JD_Verification1" class="verify-code"
+                                         src2="//authcode.jd.com/verify/image?a=1&amp;acid=4beaba89-3867-4653-afcc-13cb85635131&amp;uid=4beaba89-3867-4653-afcc-13cb85635131"
+                                         onclick="this.src= document.location.protocol +'//authcode.jd.com/verify/image?a=1&amp;acid=4beaba89-3867-4653-afcc-13cb85635131&amp;uid=4beaba89-3867-4653-afcc-13cb85635131&amp;yys='+new Date().getTime();$('#authcode').val('');"/>
+                                    <a href="javascript:void(0)" onclick="$('#JD_Verification1').click();">看不清换一张</a>
+                                </div>
+
+                                <div class="item item-fore4">
+                                    <div class="safe">
+										<span>
+                                                                             	</span>
+                                        <span class="forget-pw-safe">
+											<a href="/uc/links?tag=safe" class="" target="_blank"
+                                               clstag="pageclick|keycount|201607144|3">忘记密码</a>
+										</span>
+                                    </div>
+                                </div>
+
+                                <div class="item item-fore5">
+                                    <div class="login-btn">
+                                      <input type="submit" class="btn-img btn-entry" id="loginsubmit" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qrcode-login">
+                    <div class="mc">
+                        <div class="qrcode-error-2016">
+                            <div class="qrcode-error-mask">
+                            </div>
+                            <p class="err-cont">服务器出错</p>
+                            <a href="javascript:void(0)" class="refresh-btn">刷新</a>
+                        </div>
+                        <div class="qrcode-main">
+                            <div class="qrcode-img">
+                                <img src="./Public/picture/c9eef656fab24aaaa043133471b4894d.gif" alt="">
+                            </div>
+                            <div class="qrcode-help" style="display: none; "></div>
+                        </div>
+                        <div class="qrcode-panel">
+                            <ul>
+                                <li class="fore1">
+                                    <span>打开</span>
+                                    <a href="/uc/links?tag=apps" target="_blank"
+                                       clstag="pageclick|keycount|201607144|9">
+                                        <span class="red">手机京东</span></a>
+                                </li>
+                                <li>扫描二维码</li>
+                            </ul>
+                        </div>
+                        <div class="coagent qr-coagent" id="qrCoagent">
+                            <ul>
+                                <li><b></b><em>免输入</em></li>
+                                <li><b class="faster"></b><em>更快&nbsp;</em></li>
+                                <li><b class="more-safe"></b><em>更安全</em></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="coagent" id="kbCoagent">
+                    <ul>
+                        <li>
+                            <b></b>
+                            <a href="javascript:void(0)"
+                               onclick="window.location='//qq.jd.com/new/qq/login.aspx'+window.location.search;return false;"
+                               clstag="pageclick|keycount|201607144|6" class="pdl"><b
+                                    class="QQ-icon"></b><span>QQ</span></a>
+                            <span class="line">|</span>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                               onclick="window.location='//qq.jd.com/new/wx/login.action'+window.location.search;return false;"
+                               clstag="pageclick|keycount|201607144|7" class="pdl"><b
+                                    class="weixin-icon"></b><span>微信</span></a>
+                        </li>
+                        <li class="extra-r">
+                            <div>
+                                <div class="regist-link"><a
+                                        href="//reg.jd.com/reg/person?ReturnUrl=http%3A%2F%2Fwww.jd.com"
+                                        clstag="pageclick|keycount|201607144|8"
+                                        target="_blank"><b></b>立即注册</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>            </div>
+        </div>
+        <div class="login-banner" clstag="pageclick|keycount|20150112ABD|46">
+            <div class="w">
+                <div id="banner-bg" class="i-inner"
+                >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w">
+    <div id="footer-2013">
+        <div class="links">
+            <a rel="nofollow" target="_blank" href="//www.jd.com/intro/about.aspx">
+                关于我们
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//www.jd.com/contact/">
+                联系我们
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//zhaopin.jd.com/">
+                人才招聘
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//www.jd.com/contact/joinin.aspx">
+                商家入驻
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//www.jd.com/intro/service.aspx">
+                广告服务
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//app.jd.com/">
+                <?php echo $_smarty_tpl->tpl_vars['lcxm']->value;?>
+
+            </a>
+            |
+            <a target="_blank" href="//club.jd.com/links.aspx">
+                友情链接
+            </a>
+            |
+            <a target="_blank" href="//media.jd.com/">
+                销售联盟
+            </a>
+            |
+            <a href="//club.jd.com/" target="_blank">
+                京东社区
+            </a>
+            |
+            <a href="//gongyi.jd.com" target="_blank">
+                京东公益
+            </a>
+            |
+            <a target="_blank" href="//en.jd.com/" clstag="pageclick|keycount|20150112ABD|9">English Site</a>
+        </div>
+        <div class="copyright">
+            Copyright&nbsp;&copy;&nbsp;2004-2017&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+        </div>
+    </div>
+</div><?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/base.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/jdjsencrypt.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/login2016.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/login.index.2016-1130.js" source="widget"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript">	~function () {		var data = [						{			  src:"//img11.360buyimg.com/da/jfs/t8881/159/1948906910/282555/43e7c0d1/59c27240Ndb277b78.jpg",			  bgColor:"fb03e6",                          weight: ""			}						,			{			  src:"//img14.360buyimg.com/da/jfs/t8446/162/1585561365/83744/c227a86c/59bba178Nfb7090f7.jpg",			  bgColor:"#FAD7DB",                          weight: ""			}						,			{			  src:"//img13.360buyimg.com/da/jfs/t2749/276/1020747574/33213/870500f1/5731485aN1134b4f0.png",			  bgColor:"#e93854",                          weight: "4"			}						,			{			  src:"//img30.360buyimg.com/da/jfs/t8821/22/2091015934/151367/8ea66398/59c3507eN4a651625.jpg",			  bgColor:"#ff7000",                          weight: "4"			}			];						         var getRandom = function (arr) {			var _temp = 0, _random = 0, _weight, _newArr = [];						for (var i = 0; i < arr.length; i++) {				_weight = parseInt(arr[i].weight) ? parseInt(arr[i].weight) : 1;				_newArr[i] = [];				_newArr[i].push(_temp);				_temp += _weight;				_newArr[i].push(_temp);			}						_random = Math.ceil(_temp * Math.random());						for (var i = 0; i< _newArr.length; i++){				if(_random > _newArr[i][0] && _random <= _newArr[i][1]){					return arr[i];				}			}			};				var tpl = '<div class="login-banner" style="background-color: {bgColor}">\		              <div class="w">\			         <div id="banner-bg"  clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url(../../../Public/images/0278967d03b34c6991d192dcd81b8440.gif) 0px 0px no-repeat;background-color: {bgColor}"></div>\		              </div>\		           </div>';							var bgData = getRandom(data);		var bannerHtml = tpl.replace(/{bgColor}/g, bgData.bgColor).replace(/{imgURI}/g, bgData.src);				$('.login-banner').replaceWith(bannerHtml);	}();<?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript">
+    (function () {
+        var ja = document.createElement('script');
+        ja.type = 'text/javascript';
+        ja.async = true;
+        ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : '//csc') + '.jd.com/wl.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ja, s);
+    })();
+<?php echo '</script'; ?>
+>
+
+
+<?php echo '<script'; ?>
+ src="./Public/js/td.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
+    $(function () {
+        getJdEid(function (eid, fpid) {
+            var eValue = eid;
+            var fpValue = fpid;
+            var ee = $("#eid").prop("value", eValue);
+            var fp = $("#sessionId").prop("value", fpValue);
+        });
+    });
+<?php echo '</script'; ?>
+>
+
+<?php echo '<script'; ?>
+ type="text/javascript">
+    var _jraq = _jraq || [];
+    _jraq.push(['account', 'UA-J2011-12']);
+    (function () {
+        var ja = document.createElement('script');
+        ja.type = 'text/javascript';
+        ja.async = true;
+        ja.src = ('https:' == document.location.protocol ? 'https://jrclick' : '//jrclick') + '.jd.com/wl.dev.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ja, s);
+    })();
+<?php echo '</script'; ?>
+>
+
+
+<?php echo '<script'; ?>
+ type="text/javascript" src="./Public/js/jseqf.js"><?php echo '</script'; ?>
+>
+
+<!-- SDK 登录 -->
+</body>
+</html>
+<?php }
+}
